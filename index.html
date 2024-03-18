@@ -4,16 +4,670 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TECHVIO || IT Solutions & Business Services Company</title>
+    <!-- flat icon -->
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
+
+    <!-- box icon -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
 
     <!-- main stylesheet -->
+
     <link rel="stylesheet" href="./Assets/css/style.css" />
+    <link rel="stylesheet" href="./Assets/css/media.css" />
   </head>
   <body>
-    <h1>sffjlk;klsdass</h1>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-      quaerat.
-    </p>
+    <header class="container-fluid">
+      <nav class="container">
+        <div class="logo">
+          <a href=""><img src="./Assets/image/logo.png" alt="logo" /></a>
+        </div>
+        <ul id="navbar">
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Pages</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+          <i class="bx bx-menu" id="show-icon" onclick="showMenu()"></i>
+          <i class="bx bx-x d-none" id="hide-icon" onclick="hideMenu()"></i>
+        </div>
+        <!-- <button class="btn">Get it support</button> -->
+
+        <div class="button-box">
+          <button class="seven">Grow button</button>
+        </div>
+      </nav>
+      <div class="container header-inner">
+        <div class="header-content">
+          <div class="social">
+            <a href=""> <i class="bx bxl-facebook"></i></a>
+            <a href=""><i class="bx bxl-twitter"></i></a>
+            <a href=""><i class="bx bxl-instagram"></i></a>
+            <a href=""><i class="bx bxl-youtube"></i></a>
+          </div>
+          <h1 class="iam">
+            IT Solutions & <br />
+            <span class="text"></span>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            saepe, non in voluptas ratione ipsum vel animi eum facere quo quam
+          </p>
+          <button>Our Service <span class="btn-after"></span></button>
+          <button>Contact Us <span class="btn-after"></span></button>
+        </div>
+        <div class="header-img">
+          <img data-tilt max:20 src="./Assets/image/home-font.png" alt="" />
+        </div>
+      </div>
+      <img
+        class="wave-img"
+        src="./Assets/image/home-bottom-shape.png"
+        alt="header wave"
+      />
+    </header>
+
+    <!-- service section start -->
+    <section class="container-fluid service-section">
+      <div class="section-title">
+        <h3 class="sub-title">WHAT WE PROVIDE</h3>
+        <h2 class="title">Our Services</h2>
+      </div>
+      <div class="container">
+        <div class="services">
+          <article class="service">
+            <i class="bx bx-code-alt service-icon"></i>
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt dolore magna aliqua
+            </p>
+            <a href="#"><i class="bx bx-right-arrow-alt"></i> Read More</a>
+          </article>
+          <!-- single item end -->
+          <article class="service">
+            <i class="bx bx-code-alt service-icon"></i>
+            <h2>Digital Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt dolore magna aliqua
+            </p>
+            <a href="#"><i class="bx bx-right-arrow-alt"></i> Read More</a>
+          </article>
+          <!-- single item end -->
+          <article class="service">
+            <i class="bx bx-code-alt service-icon"></i>
+            <h2>Startup Solutions</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt dolore magna aliqua
+            </p>
+            <a href="#"><i class="bx bx-right-arrow-alt"></i> Read More</a>
+          </article>
+          <!-- single item end -->
+          <article class="service">
+            <i class="bx bx-code-alt service-icon"></i>
+            <h2>Networking Services</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt dolore magna aliqua
+            </p>
+            <a href="#"><i class="bx bx-right-arrow-alt"></i> Read More</a>
+          </article>
+          <!-- single item end -->
+          <article class="service">
+            <i class="bx bx-code-alt service-icon"></i>
+            <h2>SEO Optimization</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt dolore magna aliqua
+            </p>
+            <a href="#"><i class="bx bx-right-arrow-alt"></i> Read More</a>
+          </article>
+          <!-- single item end -->
+          <article class="service">
+            <i class="bx bx-code-alt service-icon"></i>
+            <h2>Apps Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt dolore magna aliqua
+            </p>
+            <a href="#"><i class="bx bx-right-arrow-alt"></i> Read More</a>
+          </article>
+          <!-- single item end -->
+        </div>
+      </div>
+    </section>
+    <!-- service section end -->
+
+    <!-- about Us section start-->
+    <section class="container-fluid about">
+      <div class="container">
+        <div class="about-section">
+          <div class="about-content">
+            <h3 class="sub-title">ABOUT OUR COMPANY</h3>
+            <h2 class="title">
+              Providing Your Business With A Quality IT Service is Our Passion
+            </h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
+              minim IT Consulting
+            </p>
+            <div>
+              <div class="progress-status">
+                <h4>HTML</h4>
+                <h4>90%</h4>
+              </div>
+              <div class="progress-container">
+                <div class="progress-bar" data-target="90"></div>
+              </div>
+            </div>
+            <!-- single progress bar end  -->
+            <div>
+              <div class="progress-status">
+                <h4>CSS</h4>
+                <h4>80%</h4>
+              </div>
+              <div class="progress-container">
+                <div class="progress-bar" data-target="80"></div>
+              </div>
+            </div>
+            <!-- single progress bar end  -->
+            <div>
+              <div class="progress-status">
+                <h4>JavaScript</h4>
+                <h4>70%</h4>
+              </div>
+              <div class="progress-container">
+                <div class="progress-bar" data-target="70"></div>
+              </div>
+            </div>
+            <!-- single progress bar end  -->
+
+            <a class="btn" href="#">Learn More</a>
+          </div>
+
+          <div class="about-img">
+            <img src="./assets/image/about.jpg" alt="About Image" />
+            <div class="img-text">
+              <h2 class="title">23</h2>
+              <p class="sub-title">YEARS OF EXPERIENCE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about Us section end-->
+    <!-- CHOOSE US section start -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="choose-us-section">
+          <div class="choose-us-img">
+            <img src="./assets/image/choose-1.png" alt="Choose us" />
+          </div>
+          <div class="choose-us-content">
+            <h3 class="sub-title">ABOUT OUR COMPANY</h3>
+            <h2 class="title">
+              Providing Your Business With A Quality IT Service is Our Passion
+            </h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
+              minim IT Consulting
+            </p>
+            <div class="resound">
+              <p>Remote IT Assistance <span class="layer"></span></p>
+              <p>Remote IT Assistance <span class="layer"></span></p>
+              <p>Remote IT Assistance <span class="layer"></span></p>
+              <p>Remote IT Assistance <span class="layer"></span></p>
+              <p>Remote IT Assistance <span class="layer"></span></p>
+              <p>Remote IT Assistance <span class="layer"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CHOOSE US section end -->
+    <!-- trust section start -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="trust-us-section">
+          <div class="trust-us-content">
+            <h3 class="sub-title">WHY TRUST US?</h3>
+            <h2 class="title">
+              Achieve Digital Transformation For Your Retail Business Services
+            </h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="resound">
+              <p>Protect your Business <span class="layer"></span></p>
+              <p>Network Security <span class="layer"></span></p>
+              <p>Data Security <span class="layer"></span></p>
+              <p>Small Business Owners <span class="layer"></span></p>
+              <p>Running your Business <span class="layer"></span></p>
+              <p>Network Monitoring <span class="layer"></span></p>
+            </div>
+          </div>
+          <div class="trust-us-img">
+            <img src="./assets/image/choose-1.png" alt="Choose us" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- trust section end -->
+
+    <!-- portfolio section start -->
+
+    <section class="container-fluid">
+      <div class="container">
+        <div class="portfolio-section">
+          <div class="section-title">
+            <h3 class="sub-title">RECENT WORKS</h3>
+            <h2 class="title">Our Portfolio</h2>
+            <ul class="portfolio-list">
+              <li>
+                <span class="tab-btn active" onclick="openTab('portfolio-item')"
+                  >All</span
+                >
+              </li>
+              <li>
+                <span class="tab-btn" onclick="openTab('Branding')"
+                  >Branding</span
+                >
+              </li>
+              <li>
+                <span class="tab-btn" onclick="openTab('Application')"
+                  >Application</span
+                >
+              </li>
+              <li>
+                <span class="tab-btn" onclick="openTab('WebDesign')"
+                  >Web Design</span
+                >
+              </li>
+              <li>
+                <span class="tab-btn" onclick="openTab('Photography')"
+                  >Photography</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="portfolio-images">
+            <div class="portfolio-item Branding">
+              <img src="./assets/image/portfolio-1.jpg" alt="portfolio-1" />
+              <div class="portfolio-content-overlay">
+                <p>App Store | Social Media</p>
+                <h3><a href="">Creative Web Design</a></h3>
+                <a class="portfolio-link-icon" href=""
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></a>
+              </div>
+            </div>
+            <!-- single portfolio item -->
+
+            <div class="portfolio-item WebDesign Photography">
+              <img src="./assets/image/portfolio-2.jpg" alt="portfolio-2" />
+              <div class="portfolio-content-overlay">
+                <p>App Store | Social Media</p>
+                <h3><a href="">Creative Web Design</a></h3>
+                <a class="portfolio-link-icon" href=""
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></a>
+              </div>
+            </div>
+            <!-- single portfolio item -->
+
+            <div class="portfolio-item Branding">
+              <img src="./assets/image/portfolio-3.jpg" alt="portfolio-3" />
+              <div class="portfolio-content-overlay">
+                <p>App Store | Social Media</p>
+                <h3><a href="">Creative Web Design</a></h3>
+                <a class="portfolio-link-icon" href=""
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></a>
+              </div>
+            </div>
+            <!-- single portfolio item -->
+
+            <div class="portfolio-item WebDesign Photography">
+              <img src="./assets/image/portfolio-4.jpg" alt="portfolio-4" />
+              <div class="portfolio-content-overlay">
+                <p>App Store | Social Media</p>
+                <h3><a href="">Creative Web Design</a></h3>
+                <a class="portfolio-link-icon" href=""
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></a>
+              </div>
+            </div>
+            <!-- single portfolio item -->
+
+            <div class="portfolio-item Application">
+              <img src="./assets/image/portfolio-5 (1).jpg" alt="portfolio-5" />
+              <div class="portfolio-content-overlay">
+                <p>App Store | Social Media</p>
+                <h3><a href="">Creative Web Design</a></h3>
+                <a class="portfolio-link-icon" href=""
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></a>
+              </div>
+            </div>
+            <!-- single portfolio item -->
+
+            <div class="portfolio-item Application">
+              <img src="./assets/image/portfolio-6.jpg" alt="portfolio-6" />
+              <div class="portfolio-content-overlay">
+                <p>App Store | Social Media</p>
+                <h3><a href="">Creative Web Design</a></h3>
+                <a class="portfolio-link-icon" href=""
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></a>
+              </div>
+            </div>
+            <!-- single portfolio item -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section end -->
+
+    <!-- count section start -->
+    <section class="container-fluid banner-img">
+      <div class="container">
+        <div class="count-section">
+          <div class="counter">
+            <h3 data-target="23" class="count">
+              23<i class="bx bx-plus-medical"></i>
+            </h3>
+            <h6>Years Helping Business</h6>
+          </div>
+          <div class="counter">
+            <h3 data-target="250" class="count">250</h3>
+            <h6>Working Employees</h6>
+          </div>
+          <div class="counter">
+            <h3 data-target="4500" class="count">4500</h3>
+            <h6>Complete Projects</h6>
+          </div>
+          <div class="counter">
+            <h3 data-target="3000" class="count">3000+</h3>
+            <h6>Happy Customers</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- count section end -->
+
+    <!-- client feedback start -->
+
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="section-title">
+          <h3 class="sub-title">Our Testimonial</h3>
+          <h2 class="title">Client Feedback</h2>
+        </div>
+
+        <div class="testimonial-items">
+          <div class="single-testimonial">
+            <div class="rating-box">
+              <ul>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+              </ul>
+            </div>
+
+            <div class="testimonial-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. enim
+                ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
+
+            <div class="avatar">
+              <img
+                src="./assets/image/testimonial-1.jpg"
+                alt="testimonial images"
+              />
+            </div>
+            <div class="testimonial-bio">
+              <div class="bio-info">
+                <h3>Stevie Wills</h3>
+                <span>Germany</span>
+              </div>
+            </div>
+          </div>
+          <!-- single testimonial item -->
+
+          <div class="single-testimonial">
+            <div class="rating-box">
+              <ul>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+              </ul>
+            </div>
+
+            <div class="testimonial-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. enim
+                ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
+
+            <div class="avatar">
+              <img
+                src="./assets/image/testimonial-2.jpg"
+                alt="testimonial images"
+              />
+            </div>
+            <div class="testimonial-bio">
+              <div class="bio-info">
+                <h3>Stevie Wills</h3>
+                <span>Germany</span>
+              </div>
+            </div>
+          </div>
+          <!-- single testimonial item -->
+
+          <div class="single-testimonial">
+            <div class="rating-box">
+              <ul>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+              </ul>
+            </div>
+
+            <div class="testimonial-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. enim
+                ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
+
+            <div class="avatar">
+              <img
+                src="./assets/image/testimonial-3.jpg"
+                alt="testimonial images"
+              />
+            </div>
+            <div class="testimonial-bio">
+              <div class="bio-info">
+                <h3>Stevie Wills</h3>
+                <span>Germany</span>
+              </div>
+            </div>
+          </div>
+          <!-- single testimonial item -->
+        </div>
+      </div>
+    </section>
+    <!-- testimonial section end -->
+
+    <!-- expert section start -->
+    <section class="container-fluid">
+      <div class="container">
+        <div class="expert-section">
+          <div class="expert-content">
+            <h3 class="sub-title">TEAM MEMBER</h3>
+            <h2 class="title">Expert Team</h2>
+          </div>
+          <div class="expert-img">
+            <div class="experts">
+              <div class="image-container">
+                <img
+                  src="./Assets/image/team-1.jpg"
+                  alt=""
+                  class="team-image"
+                />
+                <div class="social">
+                  <a href="#" class="facebook-icon"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="twitter-icon"
+                    ><i class="bx bxl-twitter"></i
+                  ></a>
+                  <a href="#" class="linkedin-icon"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="experts-name">
+                <h2>Ava Farrington</h2>
+                <h4>Founder, CEO</h4>
+              </div>
+            </div>
+
+            <!-- single img end -->
+            <div class="experts">
+              <div class="image-container">
+                <img
+                  src="./Assets/image/team-2.jpg"
+                  alt=""
+                  class="team-image"
+                />
+                <div class="social">
+                  <a href="#" class="facebook-icon"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="twitter-icon"
+                    ><i class="bx bxl-twitter"></i
+                  ></a>
+                  <a href="#" class="linkedin-icon"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="experts-name">
+                <h2>Kevin Haley</h2>
+                <h4>Co-Founder, CTO</h4>
+              </div>
+            </div>
+            <!-- single img end -->
+            <div class="experts">
+              <div class="image-container">
+                <img
+                  src="./Assets/image/team-3.jpg"
+                  alt=""
+                  class="team-image"
+                />
+                <div class="social">
+                  <a href="#" class="facebook-icon"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="twitter-icon"
+                    ><i class="bx bxl-twitter"></i
+                  ></a>
+                  <a href="#" class="linkedin-icon"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="experts-name">
+                <h2>Alishia Fulton</h2>
+                <h4>Chief Creative Officer</h4>
+              </div>
+            </div>
+            <!-- single img end -->
+            <div class="experts">
+              <div class="image-container">
+                <img
+                  src="./Assets/image/team-4.jpg"
+                  alt=""
+                  class="team-image"
+                />
+                <div class="social">
+                  <a href="#" class="facebook-icon"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="twitter-icon"
+                    ><i class="bx bxl-twitter"></i
+                  ></a>
+                  <a href="#" class="linkedin-icon"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="experts-name">
+                <h2>Lucas Martinez</h2>
+                <h4>Creative Director</h4>
+              </div>
+            </div>
+            <!-- single img end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expert section end-->
+
+    <!-- client feedback end -->
+
+    <!-- front -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- vanilla tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+    <!-- slider -->
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+    <!-- text animation -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- main script -->
     <script src="./Assets/js/main.js"></script>
   </body>
 </html>

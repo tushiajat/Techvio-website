@@ -1,0 +1,46 @@
+@media screen and (max-width: 992px) {
+  header {
+    height: auto;
+    max-height: none;
+  }
+  header .wave-img {
+    height: 25%;
+  }
+  header .header-img {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  header nav ul {
+    display: none;
+  }
+  header .button-box {
+    display: none;
+  }
+  header .menu-icon {
+    display: block;
+  }
+  header nav ul {
+    background-color: var(--bs-light);
+    width: 90%;
+    top: -1000px;
+    left: 5%;
+    position: absolute;
+    z-index: 55;
+    transition: 0.5s;
+  }
+  header nav ul li {
+    border-bottom: 1px solid lightgrey;
+  }
+
+  header nav ul li a {
+    color: var(--bs-black);
+    padding: 15px;
+    width: 100%;
+  }
+  header .header-inner {
+    display: block;
+    text-align: center;
+  }
+}
