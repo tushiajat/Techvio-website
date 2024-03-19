@@ -94,3 +94,38 @@ function animateCounters() {
 
 // Run the animation when the page is loaded
 window.addEventListener("load", animateCounters);
+
+//slider
+var splide = new Splide(".splide", {
+  type: "loop",
+  perPage: 3,
+  focus: "center",
+  autoplay: true,
+  interval: 3000,
+  pauseOnHover: true,
+  arrows: false,
+});
+
+splide.mount();
+
+// scrollbar
+const goTopBtn = document.getElementById("goTop");
+window.addEventListener("scroll", () => {
+  console.log(window.scrollY);
+  if (window.scrollY > 500) {
+    goTopBtn.style.bottom = "20px";
+  } else {
+    goTopBtn.style.bottom = "10000px";
+  }
+});
+
+//handle event bottom to top button
+goTopBtn.addEventListener("click", () => {
+  window.scrollTo(0, 0); //(top,left)
+});
+
+//loader
+const loader = document.getElementById("loader");
+window.addEventListener("load", () => {
+  loader.style.display = "none";
+});

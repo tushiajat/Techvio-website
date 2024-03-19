@@ -181,3 +181,116 @@ counters.forEach((counter) => {
 </body>
 
 </html>
+
+<section class="testimonial-section">
+      <div class="container">
+        <div class="section-title">
+          <h3 class="sub-title">Our Testimonial</h3>
+          <h2 class="title">Client Feedback</h2>
+        </div>
+
+        <div class="testimonial-items">
+          <div class="single-testimonial">
+            <div class="rating-box">
+              <ul>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+              </ul>
+            </div>
+
+            <div class="testimonial-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. enim
+                ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
+
+            <div class="avatar">
+              <img
+                src="./assets/image/testimonial-1.jpg"
+                alt="testimonial images"
+              />
+            </div>
+            <div class="testimonial-bio">
+              <div class="bio-info">
+                <h3>Stevie Wills</h3>
+                <span>Germany</span>
+              </div>
+            </div>
+          </div>
+          <!-- single testimonial item -->
+
+          <div class="single-testimonial">
+            <div class="rating-box">
+              <ul>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+              </ul>
+            </div>
+
+            <div class="testimonial-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. enim
+                ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
+
+            <div class="avatar">
+              <img
+                src="./assets/image/testimonial-2.jpg"
+                alt="testimonial images"
+              />
+            </div>
+            <div class="testimonial-bio">
+              <div class="bio-info">
+                <h3>Stevie Wills</h3>
+                <span>Germany</span>
+              </div>
+            </div>
+          </div>
+          <!-- single testimonial item -->
+
+          <div class="single-testimonial">
+            <div class="rating-box">
+              <ul>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+                <li><i class="bx bxs-star"></i></li>
+              </ul>
+            </div>
+
+            <div class="testimonial-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. enim
+                ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
+
+            <div class="avatar">
+              <img
+                src="./assets/image/testimonial-3.jpg"
+                alt="testimonial images"
+              />
+            </div>
+            <div class="testimonial-bio">
+              <div class="bio-info">
+                <h3>Stevie Wills</h3>
+                <span>Germany</span>
+              </div>
+            </div>
+          </div>
+          <!-- single testimonial item -->
+        </div>
+      </div>
+    </section>
