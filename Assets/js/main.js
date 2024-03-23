@@ -108,6 +108,16 @@ var splide = new Splide(".splide", {
 
 splide.mount();
 
+//set vanBar Background
+const navigationBar = document.getElementById("fullNavbar");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    navigationBar.classList.add("set-nav-bg");
+  } else {
+    navigationBar.classList.remove("set-nav-bg");
+  }
+});
+
 // scrollbar
 const goTopBtn = document.getElementById("goTop");
 window.addEventListener("scroll", () => {
@@ -128,4 +138,11 @@ goTopBtn.addEventListener("click", () => {
 const loader = document.getElementById("loader");
 window.addEventListener("load", () => {
   loader.style.display = "none";
+});
+
+//mouse
+new cursoreffects.rainbowCursor({
+  length: 3,
+  colors: ["red", "blue"],
+  size: 4,
 });
