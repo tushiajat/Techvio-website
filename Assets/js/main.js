@@ -108,7 +108,7 @@ var splide = new Splide(".splide", {
 
 splide.mount();
 
-//set vanBar Background
+//set navBar Background
 const navigationBar = document.getElementById("fullNavbar");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 300) {
@@ -134,8 +134,15 @@ goTopBtn.addEventListener("click", () => {
   window.scrollTo(0, 0); //(top,left)
 });
 
-//loader
-const loader = document.getElementById("loader");
+// //loader pizza
+// const loader = document.getElementById("loader");
+// window.addEventListener("load", () => {
+//   loader.style.display = "none";
+// });
+
+// another loader
+
+const loader = document.getElementById("loader-container");
 window.addEventListener("load", () => {
   loader.style.display = "none";
 });
@@ -146,3 +153,21 @@ new cursoreffects.rainbowCursor({
   colors: ["red", "blue"],
   size: 4,
 });
+
+//email validation
+function validateEmail() {
+  var emailInput = document.getElementById("contact-mail");
+  var email = emailInput.value.trim();
+
+  var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (email === "") {
+    alert("Please enter an email address.");
+    return false;
+  } else if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address.");
+    return false;
+  }
+
+  alert("Email submitted successfully!");
+}

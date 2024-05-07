@@ -43,4 +43,11 @@
     display: block;
     text-align: center;
   }
+  .contact-section .form {
+    flex-basis: 100%;
+    margin-left: 30px;
+  }
+  .footer-content p {
+    width: 100%;
+  }
 }

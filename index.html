@@ -26,14 +26,16 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     />
 
     <!-- loader link -->
-    <link rel="stylesheet" href="./Assets/css/loader.css" />
+    <!-- <link rel="stylesheet" href="./Assets/css/loader.css" /> -->
+    <link rel="stylesheet" href="./Assets/css/loader2.css" />
     <!-- main stylesheet -->
     <link rel="stylesheet" href="./Assets/css/style.css" />
     <link rel="stylesheet" href="./Assets/css/media.css" />
   </head>
   <body>
     <!-- loader start -->
-    <div class="cs-loader show" id="loader">
+
+    <!-- <div class="cs-loader show" id="loader">
       <div class="cs-loader__media">
         <img
           loading="lazy"
@@ -50,8 +52,43 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <span>N</span>
         <span>G</span>
       </div>
-    </div>
+    </div> -->
     <!-- loader end -->
+
+    <!-- another loader start -->
+    <div id="loader-container">
+      <div class="loader">
+        <div class="box box0">
+          <div></div>
+        </div>
+        <div class="box box1">
+          <div></div>
+        </div>
+        <div class="box box2">
+          <div></div>
+        </div>
+        <div class="box box3">
+          <div></div>
+        </div>
+        <div class="box box4">
+          <div></div>
+        </div>
+        <div class="box box5">
+          <div></div>
+        </div>
+        <div class="box box6">
+          <div></div>
+        </div>
+        <div class="box box7">
+          <div></div>
+        </div>
+        <div class="ground">
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- another loader end -->
     <!-- //scrollber start -->
     <div id="goTop"><i class="bx bx-chevron-up"></i></div>
     <!-- //scrollber end -->
@@ -790,6 +827,79 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       </div>
     </section>
     <!-- banner image section end -->
+
+    <!-- footer section start -->
+    <section class="container-fluid">
+      <div class="contact-img">
+        <div class="container">
+          <div class="contact-section">
+            <div class="cont-content">
+              <h2 class="title">Sign Up Our Newsletter</h2>
+              <p>
+                We Offer An Informative Monthly Technology Newsletter - Check It
+                Out.
+              </p>
+            </div>
+            <div class="form" onclick="validateEmail()">
+              <input
+                type="email"
+                id="contact-mail"
+                value=""
+                placeholder="Email"
+              />
+              <button class="btn-after" type="submit">Subscribe Now</button>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="footer-content">
+              <img class="logo" src="./Assets/image/logo.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium deleniti quo molestiae in corrupti quam fuga
+                cupiditate praesentium sint atque tempora aspernatur,
+                repudiandae esse non quaerat numquam facilis eius minus
+                dignissimos qui. Possimus placeat atque ducimus porro nam
+                voluptatibus? Labore at fuga vel maiores mollitia ex itaque,
+                consectetur reiciendis unde ipsa incidunt pariatur, non
+                necessitatibus iste nisi ipsum temporibus nostrum rem, velit
+                nemo. Exercitationem sed, voluptatibus rerum blanditiis
+                recusandae suscipit at. Nobis laudantium enim vitae eveniet
+                maxime tempora, nam fugiat accusantium reprehenderit odit ipsa!
+                Nesciunt culpa porro dolorem sapiente sunt molestiae mollitia
+                voluptas eum doloremque, quaerat, perferendis consectetur
+                ratione dolorum quo!
+              </p>
+            </div>
+
+            <div class="our-service">
+              <h2>Our Service</h2>
+              <h6><a href="">Startup Solutions</a></h6>
+              <h6><a href="">Web Development</a></h6>
+              <h6><a href="">Networking Services</a></h6>
+              <h6><a href="">SEO Optimization</a></h6>
+              <h6><a href="">Apps Development</a></h6>
+            </div>
+            <div class="Useful-Links">
+              <h2>Useful Links</h2>
+              <h6><a href="">About us</a></h6>
+              <h6><a href="">Case study</a></h6>
+              <h6><a href="">Contact us</a></h6>
+              <h6><a href="">Privacy Policy</a></h6>
+              <h6><a href="">Terms & Conditions</a></h6>
+            </div>
+            <div class="Contact-Info">
+              <h2>Contact Info</h2>
+              <h3></h3>
+              <h6><a href="">080 707 555-321</a></h6>
+              <h6><a href="">Case study</a></h6>
+              <h6><a href="">Contact us</a></h6>
+              <h6><a href="">Privacy Policy</a></h6>
+              <h6><a href="">Terms & Conditions</a></h6>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- footer section end -->
 
     <!-- mouse effect -->
     <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
