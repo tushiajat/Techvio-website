@@ -254,3 +254,118 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 480px) {
+  header {
+    height: auto;
+    max-height: none;
+  }
+  header .wave-img {
+    height: 25%;
+  }
+  header .header-img {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  header nav ul {
+    display: none;
+  }
+  header .button-box {
+    display: none;
+  }
+  header .menu-icon {
+    display: block;
+  }
+  header nav ul {
+    background-color: var(--bs-light);
+    width: 90%;
+    top: -1000px;
+    left: 5%;
+    position: absolute;
+    z-index: 55;
+    transition: 0.5s;
+  }
+  header nav ul li {
+    border-bottom: 1px solid lightgrey;
+  }
+
+  header nav ul li a {
+    color: var(--bs-black);
+    padding: 15px;
+    width: 100%;
+  }
+  header .header-inner {
+    display: block;
+    text-align: center;
+  }
+  header .header-inner .header-content p {
+    margin: 0 auto;
+  }
+  .contact-section .form {
+    flex-basis: 100%;
+    margin-left: 30px;
+  }
+  .footer-content p {
+    width: 100%;
+  }
+  .services {
+    grid-template-columns: 1fr;
+  }
+  .about-section {
+    display: block;
+  }
+  .about-content .btn {
+    margin-bottom: 30px;
+  }
+  .choose-us-section {
+    display: block;
+  }
+  .trust-us-section {
+    display: block;
+  }
+  .portfolio-section .portfolio-images {
+    grid-template-columns: 1fr;
+  }
+  .count-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .expert-section .expert-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 50px;
+  }
+  .blog-artical .blog-artical-inner {
+    display: block;
+    margin-left: 15px;
+    padding-bottom: 50px;
+  }
+
+  .contact-section .form input {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer .our-service,
+  .Useful-Links,
+  .Contact-Info {
+    text-align: center;
+  }
+  .contact-section {
+    display: block;
+    padding: 0;
+  }
+  .contact-section .form button {
+    margin-bottom: 10px;
+  }
+  .portfolio-section .portfolio-list {
+    display: block;
+  }
+}

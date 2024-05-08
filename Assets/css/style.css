@@ -712,7 +712,7 @@ header .header-img {
   font-size: 20px;
 }
 /* count section end */
-/* client feedback start */
+
 /* testimonial section start */
 .testimonial-items {
   display: grid;
@@ -1040,7 +1040,7 @@ h4 {
   flex-basis: 50%;
 }
 .contact-section .form input {
-  width: 70%;
+  width: 100%;
   padding: 15px;
   border-radius: 5px;
 }
@@ -1050,6 +1050,7 @@ h4 {
   border-radius: 5%;
   border: none;
   font-size: 15px;
+  margin-top: 10px;
 }
 
 .footer {
