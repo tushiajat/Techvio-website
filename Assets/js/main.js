@@ -134,13 +134,7 @@ goTopBtn.addEventListener("click", () => {
   window.scrollTo(0, 0); //(top,left)
 });
 
-// //loader pizza
-// const loader = document.getElementById("loader");
-// window.addEventListener("load", () => {
-//   loader.style.display = "none";
-// });
-
-// another loader
+// loader
 
 const loader = document.getElementById("loader-container");
 window.addEventListener("load", () => {
